@@ -1,0 +1,21 @@
+# Claude Code runtime files
+claude/cache/
+claude/debug/
+claude/file-history/
+claude/shell-snapshots/
+claude/history.jsonl
+claude/stats-cache.json
+claude/paste-cache/
+claude/telemetry/
+claude/projects/
+claude/todos/
+claude/session-env/
+claude/statsig/
+claude/downloads/
+claude/plugins/cache/
+claude/plugins/marketplaces/
+claude/plugins/install-counts-cache.json
+claude/plugins/known_marketplaces.json
+claude/plans/
+claude/image-cache/
+claude/commands/

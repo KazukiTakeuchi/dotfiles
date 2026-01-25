@@ -31,4 +31,14 @@ backup_and_link() {
 # Link configuration files
 backup_and_link "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 
+# Claude Code configuration
+echo "Setting up Claude Code configuration..."
+
+mkdir -p "$HOME/.claude/plugins"
+
+backup_and_link "$DOTFILES_DIR/claude/settings.json" "$HOME/.claude/settings.json"
+backup_and_link "$DOTFILES_DIR/claude/settings.local.json" "$HOME/.claude/settings.local.json"
+backup_and_link "$DOTFILES_DIR/claude/skills" "$HOME/.claude/skills"
+backup_and_link "$DOTFILES_DIR/claude/plugins/installed_plugins.json" "$HOME/.claude/plugins/installed_plugins.json"
+
 echo "Done! Please restart your shell or run: source ~/.zshrc"
