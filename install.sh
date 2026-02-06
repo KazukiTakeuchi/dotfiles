@@ -41,4 +41,16 @@ backup_and_link "$DOTFILES_DIR/claude/settings.local.json" "$HOME/.claude/settin
 backup_and_link "$DOTFILES_DIR/claude/skills" "$HOME/.claude/skills"
 backup_and_link "$DOTFILES_DIR/claude/plugins/installed_plugins.json" "$HOME/.claude/plugins/installed_plugins.json"
 
+# MCP servers
+echo "Setting up MCP servers..."
+
+if command -v claude &> /dev/null; then
+    claude mcp add -s user playwright -- npx @playwright/mcp@latest
+    claude mcp add -s user sequential-thinking -- npx -y @modelcontextprotocol/server-sequential-thinking
+    echo "MCP servers configured."
+else
+    echo "Warning: claude command not found. Skipping MCP server setup."
+    echo "Install Claude Code and run: claude mcp add -s user playwright -- npx @playwright/mcp@latest"
+fi
+
 echo "Done! Please restart your shell or run: source ~/.zshrc"

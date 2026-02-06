@@ -4,20 +4,20 @@
     "frontend-design@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/takeuchi/.claude/plugins/cache/claude-plugins-official/frontend-design/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/takeuchi/.claude/plugins/cache/claude-plugins-official/frontend-design/236752ad9ab3",
+        "version": "236752ad9ab3",
         "installedAt": "2026-01-18T03:22:57.580Z",
-        "lastUpdated": "2026-01-25T01:44:27.734Z",
+        "lastUpdated": "2026-02-06T03:17:42.939Z",
         "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
       }
     ],
     "feature-dev@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/takeuchi/.claude/plugins/cache/claude-plugins-official/feature-dev/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/takeuchi/.claude/plugins/cache/claude-plugins-official/feature-dev/236752ad9ab3",
+        "version": "236752ad9ab3",
         "installedAt": "2026-01-18T03:24:27.561Z",
-        "lastUpdated": "2026-01-25T01:44:27.733Z",
+        "lastUpdated": "2026-02-06T03:17:42.963Z",
         "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
       }
     ],
@@ -49,6 +49,17 @@
         "installedAt": "2026-01-18T04:56:42.494Z",
         "lastUpdated": "2026-01-18T04:56:42.494Z",
         "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "local",
+        "projectPath": "/Users/takeuchi/app/olta/oltaproject",
+        "installPath": "/Users/takeuchi/.claude/plugins/cache/claude-plugins-official/ralph-loop/236752ad9ab3",
+        "version": "236752ad9ab3",
+        "installedAt": "2026-01-30T07:38:28.252Z",
+        "lastUpdated": "2026-02-06T03:17:42.999Z",
+        "gitCommitSha": "27d2b86d72da27c64585150857cee8472ad47abb"
       }
     ]
   }
