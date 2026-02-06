@@ -6,6 +6,8 @@
       "Edit",
       "Glob",
       "Grep",
+      "WebFetch",
+      "WebSearch",
       "Bash(ls:*)",
       "Bash(pwd*)",
       "Bash(find:*)",
